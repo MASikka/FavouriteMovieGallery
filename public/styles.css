@@ -1,0 +1,20 @@
+.pageHeading {
+    color: red;
+  }
+  
+  ul > li {
+    text-transform: capitalize;
+  }
+  .gallery__item {
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  .gallery__item--image img {
+    width: 300px;
+    height: auto;
+  }
+  .footer {
+    text-align: center;
+  }
+  
