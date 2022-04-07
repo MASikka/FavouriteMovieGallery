@@ -3,6 +3,7 @@ import List from "./List";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
 import movies from "../movies";
+import Timer from "./Timer";
 function createMovie(movie) {
     return (
         <Gallery
@@ -15,6 +16,7 @@ export default function App() {
     return (
         <div>
             <PageHeading />
+            <Timer />
             <List />
             {movies.map(createMovie)}
             <Footer />
